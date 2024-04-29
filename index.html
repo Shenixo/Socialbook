@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;500;600;700&family=Kaushan+Script&family=Montserrat:wght@400;700&family=Poppins:wght@200;300;400;500;600;700&family=Roboto+Mono:wght@400;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>facebook.com</title>
+  <link rel="stylesheet" href="facebook.css">
+</head>
+<body>
+  <header>
+    <div class="navbar">
+      <nav>
+        <div class="nav-left">
+          <a href="facebook.html"><img src="socialbook_img/images/logo.png" alt="" class="logo"></a>
+          <ul>
+            <li><img src="socialbook_img/images/notification.png" alt=""></li>
+            <li><img src="socialbook_img/images/inbox.png" alt=""></li>
+            <li><img src="socialbook_img/images/video.png" alt=""></li>
+          </ul>
+        </div>
+        <div class="nav-right">
+          <div class="search-box">
+            <img src="socialbook_img/images/search.png" alt="">
+            <input type="text" placeholder="search"> 
+          </div>
+          <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+            <img src="socialbook_img/images/profile-pic.png">
+          </div>
+        </div>
+        <!-- settings menu -->
+        <div class="settings-menu">
+          <div id="dark-btn" onclick="darkBtnToggle()" ><span></span></div>
+
+            <div class="settings-menu-inner">
+            <div class="user-profile">
+              <img src="socialbook_img/images/profile-pic.png" alt="">
+              <div>
+                <p>nikalus michaelson</p>
+                <a href="facebook-second-page.html">see your profile</a>
+              </div>
+            </div>
+            <hr>
+            <div class="user-profile">
+              <img src="socialbook_img/images/feedback.png" alt="">
+              <div>
+                <p>give feedback</p>
+                <a href="#">help us to improve the new design</a>
+              </div>
+            </div>
+            <hr>
+            <div class="setting-list">
+              <img src="socialbook_img/images/setting.png" class="setting-icon">
+              <a href="#">settings & privacy <img src="socialbook_img/images/arrow.png" width="10px"></a>
+            </div>
+
+            <div class="setting-list">
+              <img src="socialbook_img/images/help.png" class="setting-icon">
+              <a href="#">help & support <img src="socialbook_img/images/arrow.png" width="10px"></a>
+            </div>
+
+            <div class="setting-list">
+              <img src="socialbook_img/images/display.png" class="setting-icon">
+              <a href="#">display & accessibility <img src="socialbook_img/images/arrow.png" width="10px"></a>
+            </div>
+
+            <div class="setting-list">
+              <img src="socialbook_img/images/logout.png" class="setting-icon">
+              <a href="#">logout <img src="socialbook_img/images/arrow.png" width="10px"></a>
+            </div>
+
+           
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div class="container">
+      <!------------ left side bar ------------->
+      <div class="left-sidebar">
+        <div class="imp-links">
+          <a href=""><img src="socialbook_img/images/news.png" alt="">latest news</a>
+
+          <a href=""><img src="socialbook_img/images/friends.png" alt="">friends</a>
+
+          <a href=""><img src="socialbook_img/images/group.png">group</a>
+
+          <a href=""><img src="socialbook_img/images/marketplace.png" alt="">marketplace</a>
+          <a href=""><img src="socialbook_img/images/watch.png" alt="">watch</a>
+          <a href="#">see more</a>
+        </div>
+        <div class="shortcut-links">
+          <p>your shortcuts </p>
+          <a href="#"><img src="socialbook_img/images/shortcut-1.png" alt="">web developers</a>
+          <a href="#"><img src="socialbook_img/images/shortcut-2.png" alt="">web design</a>
+          <a href="#"><img src="socialbook_img/images/shortcut-3.png" alt="">full stack development</a>
+          <a href="#"><img src="socialbook_img/images/shortcut-4.png" alt="">website experts</a>
+        </div>
+      </div>
+      <!----------- main content --------------->
+      <div class="main-content">
+        <div class="story-gallery">
+          <div class="story story1">
+            <img src="socialbook_img/images/upload.png" alt="">
+            <p>post story</p>
+          </div>
+          <div class="story story2">
+            <img src="socialbook_img\images\member-1.png" alt="">
+            <p>katherina</p>
+          </div>
+          <div class="story story3">
+            <img src="socialbook_img/images/member-2.png" alt="">
+            <p>jeremy</p>
+          </div>
+          <div class="story story4">
+            <img src="socialbook_img/images/member-3.png" alt="">
+            <p>stefan</p>
+          </div>
+          <div class="story story5">
+            <img src="socialbook_img/images/member-4.png" alt="">1
+            <p>damon</p>
+          </div>
+        </div>
+        <div class="write-post-container">
+          <div class="user-profile">
+            <img src="socialbook_img/images/profile-pic.png" alt="">
+            <div>
+              <p>nikalus michaelson</p>
+              <small>public <i class="fa fa-caret-down"></i></small>
+            </div>
+          </div>
+          <div class="post-input-container">
+            <textarea rows="3" placeholder="what's on your mind, niklaus"></textarea>
+            <div>
+              <div class="add-post-links">
+                <a href=""><img src="socialbook_img/images/live-video.png" alt="">live video</a>
+                <a href=""><img src="socialbook_img/images/photo.png" alt="">photo/ video</a>
+                <a href=""><img src="socialbook_img/images/feeling.png" alt="">feeling/activity video</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="post-container pc2">
+          <div class="user-profile">
+            <img src="socialbook_img/images/profile-pic.png" alt="">
+            <div>
+              <p>nikalus michaelson</p>
+              <span>june 17 2024, 11:11 am</span>
+            </div>
+          </div>
+          <p class="post-text">subscribe <b>@easy tutorials youTube</b> to watch more videos on website development and UI designs <a href="#"> #easyTutorials </a><a href="#"> #youTubeChannel </a></p>
+          <a href=""><i class="fa fa-ellipsis-v"></i></a>
+          <img src="socialbook_img/images/feed-image-1.png" class="post-img"> 
+          <div class="post-row">
+            <div class="activity-icons">
+              <div><img src="socialbook_img/images/like-blue.png" alt="">120</div>
+              <div><img src="socialbook_img/images/comments.png" alt="">95</div>
+              <div><img src="socialbook_img/images/share.png" alt="">45</div>
+            </div>
+            <div class="post-profile-icon">
+              <img src="socialbook_img/images/profile-pic.png"> <i class="fa fa-caret-down"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="post-container pc2">
+          <div class="user-profile">
+            <img src="socialbook_img/images/profile-pic.png" alt="">
+            <div>
+              <p>nikalus michaelson</p>
+              <span>june 17 2024, 11:11 am</span>
+            </div>
+          </div>
+          <p class="post-text">like and share this video with friends tag <b>@easy tutorials youTube</b> facebook page on your pos. ask questions in comments section  <a href="#"> #easyTutorials </a><a href="#"> #youTubeChannel </a></p>
+          <a href=""><i class="fa fa-ellipsis-v"></i></a>
+          <a href="TW.html"><img src="socialbook_img/images/feed-image-2.png" class="post-img"> </a>
+          <div class="post-row">
+            <div class="activity-icons">
+              <div><img src="socialbook_img/images/like.png" alt="">6k</div>
+              <div><img src="socialbook_img/images/comments.png" alt="">1.2k</div>
+              <div><img src="socialbook_img/images/share.png" alt="">232</div>
+            </div>
+            <div class="post-profile-icon">
+              <img src="socialbook_img/images/profile-pic.png"> <i class="fa fa-caret-down"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="post-container pc2">
+          <div class="user-profile">
+            <img src="socialbook_img/images/profile-pic.png" alt="">
+            <div>
+              <p>nikalus michaelson</p>
+              <span>june 17 2024, 11:11 am</span>
+            </div>
+          </div>
+          <p class="post-text">like and share this video with friends tag <b>@easy tutorials youTube</b> facebook page on your pos. ask questions in comments section  <a href="#"> #easyTutorials </a><a href="#"> #youTubeChannel </a></p>
+          <a href=""><i class="fa fa-ellipsis-v"></i></a>
+          <a href=""><img src="socialbook_img/images/feed-image-3.png" class="post-img"> </a>
+          <div class="post-row">
+            <div class="activity-icons">
+              <div><img src="socialbook_img/images/like.png" alt="">6k</div>
+              <div><img src="socialbook_img/images/comments.png" alt="">1.2k</div>
+              <div><img src="socialbook_img/images/share.png" alt="">232</div>
+            </div>
+            <div class="post-profile-icon">
+              <img src="socialbook_img/images/profile-pic.png"> <i class="fa fa-caret-down"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="post-container pc2">
+          <div class="user-profile">
+            <img src="socialbook_img/images/profile-pic.png" alt="">
+            <div>
+              <p>nikalus michaelson</p>
+              <span>june 17 2024, 11:11 am</span>
+            </div>
+          </div>
+          <p class="post-text">like and share this video with friends tag <b>@easy tutorials youTube</b> facebook page on your pos. ask questions in comments section  <a href="#"> #easyTutorials </a><a href="#"> #youTubeChannel </a></p>
+          <a href=""><i class="fa fa-ellipsis-v"></i></a>
+          <a href=""><img src="socialbook_img/images/feed-image-4.png" class="post-img"> </a>
+          <div class="post-row">
+            <div class="activity-icons">
+              <div><img src="socialbook_img/images/like.png" alt="">6k</div>
+              <div><img src="socialbook_img/images/comments.png" alt="">1.2k</div>
+              <div><img src="socialbook_img/images/share.png" alt="">232</div>
+            </div>
+            <div class="post-profile-icon">
+              <img src="socialbook_img/images/profile-pic.png"> <i class="fa fa-caret-down"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="post-container pc2">
+          <div class="user-profile">
+            <img src="socialbook_img/images/profile-pic.png" alt="">
+            <div>
+              <p>nikalus michaelson</p>
+              <span>june 17 2024, 11:11 am</span>
+            </div>
+          </div>
+          <p class="post-text">like and share this video with friends tag <b>@easy tutorials youTube</b> facebook page on your pos. ask questions in comments section  <a href="#"> #easyTutorials </a><a href="#"> #youTubeChannel </a></p>
+          <a href=""><i class="fa fa-ellipsis-v"></i></a>
+          <a href=""><img src="socialbook_img/images/feed-image-5.png" class="post-img"> </a>
+          <div class="post-row">
+            <div class="activity-icons">
+              <div><img src="socialbook_img/images/like.png" alt="">6k</div>
+              <div><img src="socialbook_img/images/comments.png" alt="">1.2k</div>
+              <div><img src="socialbook_img/images/share.png" alt="">232</div>
+            </div>
+            <div class="post-profile-icon">
+              <img src="socialbook_img/images/profile-pic.png"> <i class="fa fa-caret-down"></i>
+            </div>
+          </div>
+        </div>
+
+        <button type="button" class="load-more">load more</button>
+
+
+      </div>
+      <!----------- right side bar ------------->
+      <div class="right-sidebar">
+
+        <div class="sidebar-title">
+          <h4>events</h4>
+          <a href="#">see all</a>
+        </div>
+        <div class="event">
+          <div class="left-event">
+            <h3>24 </h3>
+            <span>february</span>
+          </div>
+          <div class="right-event">
+            <h4>social media</h4>
+            <p><i class="fa fa-map-marker" aria-hidden="true"></i>willson tech park</p>
+            <a href="#">more info</a>
+          </div>
+        </div>
+
+        <div class="event">
+          <div class="left-event">
+            <h3>17 </h3>
+            <span>june</span>
+          </div>
+          <div class="right-event">
+            <h4>mobile marketing</h4>
+            <p><i class="fa fa-map-marker" aria-hidden="true"></i>willson tech park</p>
+            <a href="#">more info</a>
+          </div>
+        </div>
+
+        <div class="sidebar-title">
+          <h4>advertisement</h4>
+          <a href="#">close</a>
+        </div>
+        <div class="ad-pic"><img src="socialbook_img/images/advertisement.png" class="sidebar-ads"> <a href=""><i class="fa fa-times-circle"></i></a></div>
+
+        <div class="sidebar-title">
+          <h4>conversation</h4>
+          <a href="#">hide chat</a>
+        </div>
+        <div class="online-list">
+          <div class="online">
+            <img src="socialbook_img/images/member-1.png" alt="">
+          </div>
+          <p>katherina pierce</p>
+        </div>
+
+        <div class="online-list">
+          <div class="online">
+            <img src="socialbook_img/images/member-2.png" alt="">
+          </div>
+          <p>jeremy gilbert</p>
+        </div>
+
+        <div class="online-list">
+          <div class="online">
+            <img src="socialbook_img/images/member-4.png" alt="">
+          </div>
+          <p>stefan salvatore</p>
+        </div>
+
+        
+      </div>
+    </div>
+    <div class="footer">
+      <p>copyright 2021 - easy tutorials youTube</p>
+    </div>
+  </header>
+  <script src="facebook.js"></script>
+</body>
+<style>
+  
+</style>
+</html>
